@@ -1,16 +1,45 @@
-# crowd_funding
+## Prerequists
 
-1. Create the database and add the credentials in the env file
-2. Run seed file to get initial data into the database using
-   
-   npm run seed
-3. Run the backend server using
-   
-   npm install
-   
-   npm run start
-4. Go to client directory and run the frontend using
-   
-   npm install
-   
-   npm start
+1. Node > 14
+2. Mysql
+3. Nodemon
+4. Create .env file and update the respective values
+
+## Installation
+
+```bash
+npm install
+```
+
+## Create database
+
+1. Create database in MySQL
+2. Add the procedure into the database data to loadup in the database(db/procedures.sql)
+
+## Add data from seeds
+
+```bash
+npm run seed
+```
+
+## Start Server
+
+```bash
+npm run start
+```
+
+## Setup Frontend Server
+
+1. Go to client sub directory and run
+
+## Installation
+
+```bash
+npm install
+```
+
+## Start Frontend Server
+
+```bash
+npm start
+```
